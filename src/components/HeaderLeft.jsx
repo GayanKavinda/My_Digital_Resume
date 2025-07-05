@@ -12,6 +12,7 @@ import {
   BiLogoLinkedin,
   BiHome,
   BiLogoFirefox,
+  BiCool,
 } from "react-icons/bi";
 
 const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
@@ -207,8 +208,9 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
             <ul className="flex list-disc flex-col gap-3">
               <li>Gaming</li>
               <li>Learning</li>
-              <li>Earning</li>
-              <li>Meditate</li>
+              <li>Workouts</li>
+              <li>Movies & Anime</li>
+              <li>Exploring Tech</li>
             </ul>
 
             {/* <ul className="flex list-disc flex-col gap-3">
